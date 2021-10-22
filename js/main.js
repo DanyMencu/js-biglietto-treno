@@ -12,7 +12,7 @@ if(age < 18) {
     Il prezzo del biglietto è: ${price.toFixed(2)}. €`
 }
 //5. Applicare uno sconto se è over 65-40%
-if(age >= 65) {
+else if(age >= 65) {
     price -= price * 0.8;
     message = `Hai diritto allo sconto nonnini del 40%.
     Il prezzo del biglietto è: ${price.toFixed(2)}. €`
